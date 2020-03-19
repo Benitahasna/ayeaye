@@ -1,0 +1,66 @@
+HTML.
+Teks terformat
+=>Jika pada konten kita memiliki sebuah kutipan ataupun sebuah testimonial, 
+kita dapat gunakan format long quotations dengan menggunakan tags <blockquote> </blockqoute>. 
+Konten di dalam elemen <blockquote> ini dapat berupa sebuah paragraf, heading ataupun list. 
+
+elemen ini kita dapat menggunakan atribut cite 
+untuk menentukan sumber URL dari sebuah kutipan (Jika kutipan tersebut bersumber dari sebuah situs website).
+ex : <blockquote cite='sumber url'>
+
+Preformatted text (untuk membuat puisi/pantun)
+=>kita sudah mengetahui bahwa HTML akan mengabaikan penulisan spasi yang dituliskan secara berulang dan juga line breaks (baris baru). 
+Tetapi pada beberapa tipe konten seperti contoh kode atau puisi hal tersebut sangat berarti. 
+Dengan begitu, terdapat sebuah elemen yang dapat kita gunakan untuk menampilkan konten sesuai yang kita tulis pada text editor. 
+Untuk menggunakannya, kita gunakan elemen <pre> </pre> sebagai pembungkus kontennya. 
+
+Figure
+=>Elemen ini digunakan untuk merepresentasikan konten tersendiri (self-contained content) seperti ilustrasi, diagram, foto atau bisa juga sebuah baris kode.
+Elemen ini digunakan untuk mengkelompokkan blok konten yang dapat dipindahkan posisinya dari blok utama sebuah dokumen tanpa mempengaruhi arti dari induk dokumen.
+Di dalam elemen figure kita dapat menuliskan elemen <figcaption> sebagai sebuah caption (judul) untuk konten tersebut. Berikut contoh penggunaan figure pada sebuah konten gambar.
+ex = elemen diketik setelah <img src> yaitu, <figcaption> guna memberi caption pada foto </figcaption>
+
+Inline Formatting Text
+
+Anchor
+=>Apa itu anchor? Anchor (jangkar) merupakan elemen yang digunakan untuk membuat sebuah hyperlink ke halaman atau website lain, file, alamat email atau URL lainnya. 
+Untuk menggunakan elemen ini kita gunakan tag <a>...</a> bersama dengan atribut href untuk menetapkan sebuah target yang akan dituju. 
+ex= <a href='link url'>
+
+Emphasized text ( cetak miring)
+=>Gunakan elemen <em> untuk menunjukan bagian kata yang perlu kita tekankan. 
+Elemen ini menunjukan stress emphasis atau konten/kata yang perlu mendapatkan penekanan atau perhatian khusus. 
+
+
+Important text ( tebal)
+=>Gunakan elemen <strong> untuk menunjukan sebuah teks yang begitu penting (strong importance), serius ataupun mendesak. 
+Dalam arti teks tersebut harus dapat perhatian lebih dari teks biasa lainnya.
+
+Citation ( cetak miring )
+=>Selain sebuah atribut, <cite> juga merupakan sebuah elemen yang digunakan untuk sebuah rujukan pada sebuah dokumen, contohnya sebuah buku, majalah, artikel dan lainnya.
+ex= <p>cek heula yuk <cite><a href='https://www.dicoding.com/academies/123/tutorials/4186?from=4138'> dicoding</a><cite>.</p>
+
+Subscript dan Superscript
+
+Subscript <sub> membuat teks yang ditampilkan nampak kecil, dengan posisi di bawah (sub) 
+membuat teks yang ditampilkan nampak kecil, dengan posisi di atas (sup). 
+Elemen ini digunakan untuk menunjukan sebuah rumus kimia ataupun matematika.
+ex= <p>Salah satu persamaan paling umum dalam semua fisika adalah E=MC<sup>2</sup></p>
+
+
+Header dan Footer
+
+Elemen ini dapat kita gunakan untuk:
+
+    Sebuah header dan footer utama yang muncul pada awal dan akhir di sebuah halaman (<body>). 
+    Header digunakan sebagai pengantar atau pembuka konten dalam sebuah elemen <article> atau <section>. 
+
+    Footer digunakan sebagai catatan kaki pada sebuah elemen <article> atau <section>.
+
+Nav
+
+Elemen <nav> digunakan untuk menampung sebuah navigasi yang sifatnya penting (major), contohnya navigasi utama pada sebuah website.
+
+Tapi tidak menjamin pada sebuah website hanya ada satu navigasi. Contohnya, sebuah akhir artikel pada blog terdapat tautan navigasi menuju artikel yang dianggap relevan dengan artikel yang telah kita baca. Navigasi tersebut tidak dianggap sebagai navigasi yang penting, sehingga kita tidak perlu menggunakan elemen <nav> untuk menampilkannya.
+
+Pada pembahasan header dan footer, kita sudah melihat contoh penggunaan dari elemen <nav> yang diletakkan pada elemen <header>. 
